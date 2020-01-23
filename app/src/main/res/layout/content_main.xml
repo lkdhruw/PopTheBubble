@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <!--FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_launcher_foreground"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@mipmap/ic_launcher_foreground"
+             />
+    </FrameLayout-->
+
+    <TableLayout
+        android:id="@+id/bubbleGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bubbleGridGg">
+
+        <!--TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView1_1"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+                <ImageView
+                    android:id="@+id/imageView1_2"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+                <ImageView
+                    android:id="@+id/imageView1_3"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+                <ImageView
+                    android:id="@+id/imageView1_4"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+                <ImageView
+                    android:id="@+id/imageView1_5"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2_1"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+                <ImageView
+                    android:id="@+id/imageView2_2"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+                <ImageView
+                    android:id="@+id/imageView2_3"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+                <ImageView
+                    android:id="@+id/imageView2_4"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+                <ImageView
+                    android:id="@+id/imageView2_5"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="8dp"
+                    app:srcCompat="@mipmap/ic_launcher_foreground" />
+            </LinearLayout>
+        </TableRow-->
+
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
